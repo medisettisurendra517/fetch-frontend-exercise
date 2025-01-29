@@ -1,0 +1,317 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ 
+/* ================================ Tailmate Custom CSS ================================ */
+
+/* Nav Bar Style */
+.tailmate-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
+  border-bottom: 1px solid #ddd;
+}
+    
+.tailmate-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff7f50;
+  text-decoration: none;
+} 
+    
+.tailmate-logo img {
+  height: 40px;
+  margin-right: 8px;
+}
+
+.navbar a.nav-link.active {
+  text-decoration: none; 
+  color: #ff7f50;
+  font-weight: bold;
+}
+
+
+/* Footer Style */
+.tailmate-footer {
+  border-top: 1px solid #ddd; 
+  padding: 15px;
+  text-align: center;
+}
+
+/* TailMate Button Style */
+.btn-tailmate {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ff5722;
+  color: #fff; 
+  border: 1px solid transparent; 
+  border-radius: 0.25rem; 
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.btn-tailmate:hover, .btn-tailmate:focus {
+  background-color: #dd3907; 
+  border-color: #dd3c0b; 
+  color: #fff; 
+  text-decoration: none; 
+  outline: none; 
+}
+
+.btn-tailmate:active {
+  background-color: #ff5722; 
+  border-color: #dd3c0b; 
+}
+
+.btn-tailmate:disabled {
+  background-color: #ff9575;
+  border-color: #ff8d6b; 
+  color: white; 
+  pointer-events: none; 
+}
+
+.btn-tailmate.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-tailmate.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+}
+
+.btn-tailmate-outline {
+  background-color: transparent;
+  color: #ff5722;
+  border-color: #dd3c0b; 
+}
+
+.btn-tailmate-outline:hover, .btn-tailmate-outline:focus {
+  background-color: #ff5722;
+  color: white;
+}
+
+.btn-tailmate-rounded {
+  border-radius: 50px;
+}
+
+/* Layout Style */
+
+.tailmate-page-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;
+  padding: 20px; 
+}
+
+/* Text Style */
+
+.tailmate-paragraph {
+  font-size: 1.1rem; 
+  line-height: 1.6; 
+  color: #555; 
+}
+
+.tailmate-highlight {
+  color: #ff7f50; 
+  font-weight: bold; 
+}
+
+/* Login Forum Style */
+
+.tailmate-home-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.login-form {
+  flex: 1;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(30px);
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form .btn:hover {
+  background: #e46d42;
+  color: white;
+}
+
+.login-form .btn:active {
+  background: #e46d42;
+  color: white;
+}
+
+
+/* Slider Style */
+
+.horizontal-slider .track {
+  background: linear-gradient(to right, #ff5722, #ff5722);
+  height: 10px;
+  border-radius: 10px;
+}
+
+.horizontal-slider .thumb {
+  background-color: #ff5722;
+  border-radius: 80%;
+  border: 1px solid #fff;
+  width: 14px;
+  height: 14px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-slider .thumb:hover {
+  background-color: #f44336;
+}
+
+
+/* Utils */
+
+.spin-color {
+  color: #ff5722;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Dog Fetch Card Style */
+
+.card .card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Favourite - OffCanvas Image Style */
+
+.rounded-circle-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Match PopUp Style*/
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.popup-content img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.popup-content p {
+  text-align: center;
+}
+
+.close-popup {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+}
