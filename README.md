@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+## Tailmate 🐶
+A Dog Adoption Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Overview
+Tailmate is a React-based web application that helps dog lovers find their perfect furry companion from a database of shelter dogs. Users can search, filter, favorite, and match with dogs available for adoption.
 
-## Available Scripts
+## 🏗 Features
+✅ User Authentication - Users log in with their name and email
 
-In the project directory, you can run:
+✅ Dog Search & Filtering - Filter by breed, paginate results
 
-### `npm start`
+✅ Sorting - Alphabetically sorted breeds (customizable order)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Favorites & Matching - Save favorite dogs and generate a match
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Interactive UI - Built with a modern component library
 
-### `npm test`
+## 📦 Tech Stack
+Frontend: React, React Router, Component Library
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+State Management: useState, useEffect
 
-### `npm run build`
+Styling: CSS Modules, Tailwind CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+API Integration: Fetch API or Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Setup & Installation
+Prerequisites
+Node.js (>=16.x)
+npm or yarn
+Steps
+1. Clone the repository:
+   
+   git clone https://github.com/yourusername/tailmate.git
+   
+   cd tailmate
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies:
+   
+   npm install  # or yarn install
 
-### `npm run eject`
+5. Start the development server:
+   
+   npm start  # or yarn start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔗 Deployment
+The app is hosted at: [Tailmate](https://tailmate.surendramedisetti.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 UI Preview
+![image](https://github.com/user-attachments/assets/8cf59e49-3296-4a44-9689-32d6071cea53)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/user-attachments/assets/300ed4d8-4a39-4a07-9009-047d4b2253c0)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/user-attachments/assets/db608119-87fe-4eef-8e90-a788adc360be)
 
-## Learn More
+![image](https://github.com/user-attachments/assets/6feb5b07-5271-4bd5-9ec1-e42da09d1ed9)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/user-attachments/assets/574f0f08-1490-42b6-a99a-df3d44fa1080)
