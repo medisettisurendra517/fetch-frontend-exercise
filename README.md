@@ -31,7 +31,7 @@ npm or yarn
 Steps
 1. Clone the repository:
    
-   git clone https://github.com/yourusername/tailmate.git
+   git clone [https://github.com/yourusername/tailmate.git](https://github.com/medisettisurendra517/fetch-frontend-exercise.git)
    
    cd tailmate
 
